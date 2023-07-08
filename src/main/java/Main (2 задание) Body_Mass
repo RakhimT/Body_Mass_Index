@@ -1,0 +1,14 @@
+import BodyMassIndexService.BodyMassIndexService;
+
+public class Main {
+    public static void main(String[] args) {
+        BodyMassIndexService service = new BodyMassIndexService();
+        double weight = 92.5; // вес в кг.
+        double height = 3.4225; // 1 метр 85 сантиметров рост, проставлено число в квадратном корне
+        int bMiS = service.calculate(weight, height);
+        int result;
+        System.out.println(bMiS);
+
+    }
+
+}

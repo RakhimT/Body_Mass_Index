@@ -1,0 +1,6 @@
+package BodyMassIndexService;
+
+public class BodyMassIndexService {
+    public int calculate(double weight, double height) {
+        return (int) (weight / height);
+    }
